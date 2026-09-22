@@ -1,5 +1,7 @@
 # Bahn-Ladeplan: Wie voll wird der Zug? – Streamlit-Demo
 
+**[→ Demo live ausprobieren](https://sebastianhanisch-bahnladeplan-demo.streamlit.app/)**
+
 Interaktive Fall-Demo zur **Beladung eines Containerzuges**: Ein Zug besteht aus Wagen mit je drei Plätzen. Jeder Wagen fährt zu **einem** Zielterminal, ein 40-Fuß-Container braucht zwei
 benachbarte Plätze, und jeder Wagen trägt nur begrenztes Gewicht. Was nicht mitfährt, wartet auf den nächsten Zug. Die Demo beantwortet: **Wie viele Container schafft ein Zug wirklich, was
 verschenkt die Alltagsregel, und was kostet die Zielreinheit?**
