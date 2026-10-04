@@ -55,7 +55,7 @@ was die **Zielreinheit** (ein Ziel je Wagen) kostet. Wie das Modell funktioniert
 st.caption("🎯 Schnellstart – ein Beispielszenario laden:")
 PRESET_HELP = {
     "Locker": "Das Angebot liegt unter der Kapazität: es passt (fast) alles, die Regeln unterscheiden sich kaum.",
-    "Üblich": "Mehr Angebot als Plätze und vier Ziele: die Reihenfolge verschenkt Plätze, Wagenblöcke und Exakt laden ein Vollzug.",
+    "Üblich": "Mehr Angebot als Plätze und vier Ziele: die Reihenfolge verschenkt Plätze, Wagenblöcke und Exakt laden im gezeigten Beispiel alle 48 Plätze (die Reihenfolge nur 46; im Mittel über viele Tage sind es 47,4 von 48).",
     "Viele Ziele": "Acht Ziele: die Alltagsregel verschenkt noch mehr, und die Zielreinheit kostet mehrere Plätze.",
     "Schwer": "Wenige 40-Fuß-Container, aber nur 40 t je Wagen: das Gewicht bindet, und der Löser lädt an manchen Tagen mehr als die Regel Wagenblöcke.",
     "Ganz lang": "Zehn Ziele: der Löser kommt an seine Grenze, „nicht bewiesen“ wird sichtbar.",
