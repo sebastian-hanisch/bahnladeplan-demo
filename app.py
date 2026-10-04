@@ -78,8 +78,8 @@ init_session_state_defaults()
 
 with st.sidebar:
     st.header("⚙️ Einstellungen")
-    n_wagons = st.slider("Anzahl Wagen", *bounds("n_wagons_slider"), key="n_wagons_slider", help="Länge des Zuges; je Wagen drei Plätze. Ab etwa 24 Wagen beweist der Löser bei vielen Zielen nicht immer.")
-    n_dests = st.slider("Zielterminals", *bounds("n_dest_slider"), key="n_dest_slider", help="Wohin die Container wollen. Mehr Ziele = mehr Zielreinheit-Zwang. Bei einem Ziel laden alle Verfahren gleich.")
+    n_wagons = st.slider("Anzahl Wagen", *bounds("n_wagons_slider"), key="n_wagons_slider", help="Länge des Zuges; je Wagen drei Plätze. Bei vielen Zielen beweist der Löser schon ab etwa 10 Wagen nicht immer.")
+    n_dests = st.slider("Zielterminals", *bounds("n_dest_slider"), key="n_dest_slider", help="Wohin die Container wollen. Mehr Ziele = mehr Zielreinheit-Zwang. Bei einem Ziel entfällt die Zielreinheit (Preis null); die Verfahren laden dann meist, aber nicht an jedem Tag gleich viel.")
     offer_pct = st.slider("Angebot (% der Kapazität)", *bounds("offer_slider"), step=C.OFFER_PCT_STEP, format="%d%%", key="offer_slider",
                           help="Angebotene TEU in Prozent der Plätze. Unter 100 % passt alles, darüber muss der Plan auswählen.")
     share40_pct = st.slider("Anteil 40-Fuß (%)", *bounds("share40_slider"), step=C.SHARE40_PCT_STEP, format="%d%%", key="share40_slider",
@@ -359,6 +359,6 @@ st.markdown("---")
 
 st.caption(
     "Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – "
-    "Operations Research und Machine Learning. Interesse an einer maßgeschneiderten Lösung für "
-    "Ihr Unternehmen? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html)"
+    "Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). "
+    "Mehr zum Thema: [Hafenlogistik optimieren](https://sebastianhanisch.net/hafenlogistik-optimierung.html)."
 )

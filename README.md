@@ -43,7 +43,7 @@ Fortschrittsbalken (etwa 30 bis 90 s).
 
 | Frage | Befund |
 |---|---|
-| **Was verschenkt die Alltagsregel?** | Bei 4 Zielen lädt die Reihenfolge im Mittel 45,2 von 48 Plätzen, Größe zuerst 45,7, Wagenblöcke und Exakt **47,4**; bei 8 Zielen 42,7 / 43,0 / **45,4**; bei 10 Zielen 42,3 / 43,2 / **45,4**. Bei einem Ziel sind alle Verfahren gleich. |
+| **Was verschenkt die Alltagsregel?** | Bei 4 Zielen lädt die Reihenfolge im Mittel 45,2 von 48 Plätzen, Größe zuerst 45,7, Wagenblöcke und Exakt **47,4**; bei 8 Zielen 42,7 / 43,0 / **45,4**; bei 10 Zielen 42,3 / 43,2 / **45,4**. Bei einem Ziel entfällt die Zielreinheit (Preis 0); die Verfahren laden dann meist, aber nicht an jedem Tag gleich viel (bei 120 % Angebot weichen die Regeln an etwa 3 % der Tage ab, bei 100 % an etwa 29 %). |
 | **Trifft die kluge Regel das Optimum?** | Ja, an allen 20 Tagen jedes Presets außer „Schwer“: Wagenblöcke = Exakt (bei den unbewiesenen Tagen: kein Löser fand mehr). |
 | **Was kostet die Zielreinheit?** | Schranke ohne Reinheit minus Optimum im Mittel: 0,1 bei 4 Zielen und Angebot 80 %, 0,45 bei 4 Zielen, **2,4 bei 8 Zielen, 2,65 bei 10 Zielen** (Kurve: 0 bei einem bis drei Zielen). |
 | **Wann schlägt Exakt die Blockregel?** | Nur wenn das Gewicht bindet: mit wenigen 40-Fuß-Containern (30 %) und 40 t je Wagen an 40 % der Tage (+0,6 TEU im Mittel). Bei 45 t und 50 % 40-Fuß an keinem von 20 Tagen. |
@@ -128,6 +128,4 @@ Tests: `python -m pytest tests/ -v`. Preset-Abstimmung: `python tools/tune_prese
 
 ---
 
-Teil des [Operations-Research-Demo-Portfolios](https://sebastianhanisch.net/demos.html) von
-[Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning.
-Interesse an einer maßgeschneiderten Lösung? [Kontakt aufnehmen](https://sebastianhanisch.net/kontakt.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zum Thema: [Hafenlogistik optimieren](https://sebastianhanisch.net/hafenlogistik-optimierung.html).
