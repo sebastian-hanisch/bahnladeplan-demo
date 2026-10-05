@@ -6,7 +6,7 @@ Interaktive Fall-Demo zur **Beladung eines Containerzuges**: Ein Zug besteht aus
 benachbarte Plätze, und jeder Wagen trägt nur begrenztes Gewicht. Was nicht mitfährt, wartet auf den nächsten Zug. Die Demo beantwortet: **Wie viele Container schafft ein Zug wirklich, was
 verschenkt die Alltagsregel, und was kostet die Zielreinheit?**
 
-Teil des Portfolios für die Website „Sebastian Hanisch – Operations Research und Machine Learning", Welle 4 der Hafen-Linie (Kran → Hinterland; nach der Schiffsstauplanung
+Teil des Portfolios für die Website „Sebastian Hanisch – Operations Research und Machine Learning“, Welle 4 der Hafen-Linie (Kran → Hinterland; nach der Schiffsstauplanung
 `stauplanung-demo`, der Fahrzeug-Demo `fahrzeugflotte-demo`, der Kaiplatz-Demo `robuste-kaiplatz-demo` und der Stapelplanung `stapelplanung-demo`).
 
 ## Warum dieses Problem
@@ -78,7 +78,7 @@ Mutanten in derselben Sekunde ließen Python sonst alten Bytecode nutzen).
 
 ## Tests
 
-`python -m pytest tests/ -v` – 473 Tests, rund 7 Minuten. Zusammensetzung:
+`python -m pytest tests/ -v` – 554 Tests, rund 7 Minuten. Zusammensetzung:
 
 - **Regeln:** Bewertung Bedingung für Bedingung (Plätze, Nachbarschaft der 40-Fuß-Container, Wagenlast auch an der Grenze, Zielreinheit), jede Regel liefert einen zulässigen Plan innerhalb der
   Schranke (60 Zufallsinstanzen), keine Regel schlägt das Brute-Force-Optimum auf 50 Kleinstinstanzen, gemessene Rangfolge der Regeln.
